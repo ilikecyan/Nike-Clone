@@ -169,11 +169,11 @@ section {
   position: relative;
 }
 
-.card-on-image {
+section.trending .card-on-image {
   color: #fff;
   position: absolute;
   text-align: left;
-  left: 24px;
+  left: 48px;
   bottom: 38px;
   margin: 0;
   padding: 0;
@@ -181,8 +181,8 @@ section {
 
 .card-on-image .card-p {
   font-weight: 500;
-    font-size: 20px;
-    line-height: 1.5;
+  font-size: 20px;
+  line-height: 1.5;
 }
 
 .cta-container {

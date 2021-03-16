@@ -1,3 +1,19 @@
-header {
-  background-color: darkgoldenrod;
+ @media (min-width: 640px) {
+
+  section.trending .figures-wrap {
+    display: flex;
+  }
+
+  section.trending .figures-wrap .image-wrap:not(:nth-child(1)) {
+    margin-top: 17px;
+  }
+
+  section.trending .image-wrap {
+     width: 50%;
+   }
+
+  section.trending .down-text {
+    bottom: 34px;
+  }
+
 }
