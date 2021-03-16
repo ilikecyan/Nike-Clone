@@ -16,4 +16,11 @@
     bottom: 34px;
   }
 
+  /* SWIPER */
+  
+.swiper .swiper-items-wrap {
+  max-width: 1808px;
+  width: auto;
+}
+
 }

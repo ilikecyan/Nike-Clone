@@ -266,7 +266,18 @@ section.trending .card-on-image {
   letter-spacing: -1;
   font-size: 16px;
 }
- 
+
+.swiper .swiper-items-wrap {
+  width: calc((100vw - 108px) / 3);
+    max-width: 586px;
+    display: flex;
+    overflow-x: scroll;
+}
+
+.swiper .slide-item {
+  min-width: 300px;
+  margin-right: 16px;
+} 
 
 @media (max-width:640px) {
   .mobile-only {
