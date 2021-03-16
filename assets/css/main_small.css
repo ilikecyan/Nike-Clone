@@ -1,4 +1,13 @@
- @media (min-width: 640px) {
+@media (min-width:0px) {
+  .apparel-text {
+    text-align: left;
+    left: 24px;
+    bottom: 48px;
+  }
+  
+}
+
+@media (min-width: 640px) {
 
   section.trending .figures-wrap {
     display: flex;
@@ -17,10 +26,17 @@
   }
 
   /* SWIPER */
-  
-.swiper .swiper-items-wrap {
-  max-width: 1808px;
-  width: auto;
+  .swiper .swiper-items-wrap {
+    max-width: 1808px;
+    width: auto;
+  }
+
+  /* SECTION APPAREL */
+
+  .apparel-text {
+    top: 48px;
+    left: 7%
 }
 
 }
+
